@@ -56,7 +56,3 @@ Example session in sbt console:
 
     οἰ-ω-νοῖ-σί-τε-πᾶ-σι,-Δι-ὸσ-δ'-ἐ-τε-λεί-ε-το-βου-λή,
     __=/_=__\___/___/
-
-
-
-In the `scripting`
