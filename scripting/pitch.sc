@@ -29,7 +29,7 @@ def computePitch(corpus: Corpus): Vector[String] = {
   println("Formatting text...")
   val pitchPatterns= syllableVects.map(v => v.map(_.accent.getOrElse("_")).mkString)
 
-  pitchPatterns.map(_.replaceAll("\\\\", "|"))
+  pitchPatterns.map(_.replaceAll("\\\\", "`"))
 }
 
 /** For a requested passage, successively print syllables and accent
